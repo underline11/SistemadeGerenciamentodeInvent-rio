@@ -1,0 +1,60 @@
+# Inventário Armazém
+
+## Descrição
+
+Este projeto tem como objetivo gerenciar um banco de dados para um sistema de inventário. O banco de dados contém tabelas para produtos, categorias e fornecedores. As principais funcionalidades incluem a inserção, consulta, atualização e exclusão de dados relacionados a esses elementos.
+
+## Estrutura do Banco de Dados
+
+1. **Tabelas:**
+   - `produtos`: Armazena informações sobre os produtos, incluindo nome, descrição, preço, quantidade em estoque e a categoria a que pertencem.
+   - `categorias`: Armazena informações sobre as categorias dos produtos.
+   - `fornecedores`: Armazena informações sobre os fornecedores.
+
+2. **Relacionamentos:**
+   - `produtos` está relacionado a `categorias` por meio da chave estrangeira `CategoriaId`.
+   - `produtos` pode estar relacionado a `fornecedores` (dependendo do seu modelo de dados, que pode não estar refletido nos exemplos fornecidos).
+
+## Scripts SQL
+
+Os scripts SQL fornecidos no projeto incluem:
+
+1. **Criação de Banco de Dados e Tabelas:**
+   - Criação das tabelas `produtos`, `categorias` e `fornecedores`.
+
+2. **Inserção de Dados:**
+   - Inserção de exemplos de categorias, fornecedores e produtos.
+
+3. **Consultas SQL:**
+   - Consulta para listar produtos em estoque.
+   - Consulta para listar produtos de uma categoria específica.
+   - Consulta para listar fornecedores que fornecem produtos acima de um determinado preço.
+
+4. **Atualizações e Exclusões:**
+   - Atualização de dados para manter a integridade referencial.
+   - Exclusão de produtos, categorias e fornecedores.
+
+## Como Utilizar
+
+1. **Configuração do Banco de Dados:**
+   - Execute o script SQL para criar o banco de dados e as tabelas.
+
+2. **Inserção de Dados:**
+   - Execute os scripts SQL para inserir dados iniciais nas tabelas.
+
+3. **Consultas e Operações:**
+   - Utilize as consultas SQL fornecidas para buscar e manipular os dados no banco de dados.
+
+## Arquivos
+
+- `schema.sql`: Contém os scripts para criar as tabelas e relacionamentos.
+- `data.sql`: Contém os scripts para inserir dados de exemplo.
+- `queries.sql`: Contém exemplos de consultas SQL.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+## Contato
+
+Para mais informações, entre em contato com [seu-email@dominio.com](mailto:seu-email@dominio.com).
