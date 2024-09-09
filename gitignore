@@ -1,0 +1,10 @@
+Projeto de Banco de Dados: Inventário Armazém
+
+Este projeto envolve a criação e gerenciamento de um banco de dados para um sistema de inventário. O banco de dados inclui três tabelas principais: produtos, categorias e fornecedores. O objetivo é armazenar e gerenciar informações sobre produtos, suas categorias e fornecedores que fornecem esses produtos.
+
+As principais operações realizadas no banco de dados incluem:
+
+Inserção de Dados: Adicionar categorias, fornecedores e produtos ao banco de dados.
+Consulta de Dados: Buscar produtos disponíveis em estoque, produtos de uma categoria específica e fornecedores que fornecem produtos acima de um determinado preço.
+Atualização de Dados: Atualizar a categoria dos produtos ou o fornecedor associado a um produto.
+Exclusão de Dados: Remover produtos, categorias e fornecedores, garantindo a integridade referencial dos dados.
